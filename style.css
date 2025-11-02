@@ -1,0 +1,100 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f5f7; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0c8a41; 
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.card-dark {
+    background-color: #333;
+    color: #fff;
+}
+.card-dark h2 {
+    border-color: #555;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #0c8a41;
+    box-shadow: 0 0 0 2px rgba(12, 138, 65, 0.2);
+}
+
+
+.btn {
+    background-color: #0c8a41; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0a6b33;
+}
+
+.btn-alt {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.btn-alt:hover {
+    background-color: #e0e0e0;
+}
